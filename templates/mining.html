@@ -1,0 +1,26 @@
+{% extends 'index.html' %}
+{% block body %}
+<div class=" envelope">
+    <header>Mining</header>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for msg in messages %}
+    <b>
+        <p style="text-align: center; color:#1A4D5E; margin: 30px;">{{msg}}</p>
+    </b>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <article style="text-align: center;">
+        {% for _ in content %}
+        {{_}}<br /><br />
+        {% endfor %}
+    </article>
+    <form action="#" method="POST">
+        <article style="text-align: center;">
+            <form action="#" method="POST">
+                <input type="submit" value="MINE" />
+            </form>
+        </article>
+        <footer><a href='/index'>Back to homepage</a></footer>
+</div>{% endblock %}

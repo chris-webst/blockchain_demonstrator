@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+{% block body %}
+<div class=" envelope">
+    <header>WELCOME TO MY BLOCKCHAIN DEMONSTRATOR</header>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for msg in messages %}
+    <b>
+        <p style="text-align: center; color:#1A4D5E; margin: 30px;">{{msg}}</p>
+    </b>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <article style="text-align: center;">
+        <p>Here you can create a new account. Your password needs to be strong and secure. You won't be registered as
+            far as your password:<br /><br /><b style="color:rgb(124, 8, 8)">
+                does not contain at least one lower-case letter<br />
+                does not contain at least one upper-case letter<br />
+                does not contain at least one cipher<br />
+                is not at least 12 characters long<br />
+                does not match the password confirmation</b></p>
+        <form action="#" method="POST"><br />
+            <input type="text" name="username" placeholder="username" required /><br /><br />
+            <input type="password" name="password" placeholder="password" required /><br /><br />
+            <input type="password" name="confirm_password" placeholder="confirm the password" required /><br /><br />
+            <input type="submit" value="REGISTER" /><br /><br />
+        </form>
+
+    </article>
+    <footer><a href='/'>Back to login page</a></footer>
+</div>{% endblock %}
