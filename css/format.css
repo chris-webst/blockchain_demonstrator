@@ -1,0 +1,70 @@
+﻿/* CSS Document */
+
+.envelope {
+    border: 5px solid #1A4D5E;
+    background-color: #6b6a6a;
+    padding: 50px;
+    scrollbar-track-color: white;
+}
+
+nav ul a:hover {
+    color: #033849;
+}
+
+header,
+footer {
+    padding: 10px;
+    margin: 10px;
+    color: #16404e;
+    background-color: rgb(158, 154, 154);
+    clear: left;
+    text-align: center;
+    border: 2px solid #1A4D5E;
+}
+
+header {
+    font-size: large;
+    font-weight: bold;
+    padding: 20px;
+}
+
+article {
+    text-align: justify;
+    margin: 30px;
+    color: #fcf9f9;
+}
+
+nav {
+    float: left;
+    margin: 0px;
+    padding: 10px;
+    height: 1000px;
+    font-size: large;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+a {
+    color: #1A4D5E;
+}
+
+nav ul a {
+    border-left: 1px solid #1A4D5E;
+    padding: 10px;
+    overflow: hidden;
+    line-height: 30px;
+}
+
+.button,
+select,
+form input,
+ ::placeholder {
+    background-color: #1A4D5E;
+    color: #faf5f5;
+    border-radius: 20%;
+    mask-border: none;
+    outline: none;
+}

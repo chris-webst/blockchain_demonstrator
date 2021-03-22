@@ -1,0 +1,27 @@
+{% extends 'index.html' %}
+{% block body %}
+<div class=" envelope">
+    <header>Sell electricity</header>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for msg in messages %}
+    <b>
+        <p style="text-align: center; color:#1A4D5E; margin: 30px;">{{msg}}</p>
+    </b>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+    <article style="text-align: center;">
+        <p>This is an easy form for submitting an offer. Type the
+            amount of electricity you want to sell (decimal numbers allowed) and then the amount of money you want to
+            receive from the buyer.<br /><br /><b style="color:rgb(124, 8, 8)">Be
+                carefull, this action is irreversible.</p>
+        <p>If you do not have the electricity, your offer will be deleted.</p></b><br />
+        <form action="#" method="POST">
+            <input type="number" step=any min=0,0000000001 name="how_much" placeholder="sell electricity" required /><br /><br />
+            <input type="number" step=any name="how_much_receive" placeholder="receive money" required /><br /><br />
+            <input type="submit" value="SEND" /><br /><br />
+        </form>
+    </article>
+    <footer><a href='/index'>Back to homepage</a></footer>
+</div>{% endblock %}

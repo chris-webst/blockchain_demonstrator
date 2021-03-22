@@ -1,0 +1,52 @@
+{% extends 'index.html' %}
+{% block body %}<div class="envelope">
+    <header>The chain</header>
+    <article style="padding: 0.1% 35%">
+			{% for block in b.chain %}
+				  <b><span style="color: #033849">Block <small>{{loop.index-1}}</small></span></b>
+				<ul style="list-style-type:square">
+				  <li>
+				  	<span style="color: #1A4D5E">Hash</span>
+				  	<br>
+				  		<small>{{ block.hash }}</small>
+				  </li><br />
+
+					<li>
+					<span style="color: #1A4D5E">Hash of previous block</span>
+				  	<br>
+				  		<small>{{ block.pre_hash }}</small>
+				  </li><br />
+
+				  <li>
+				  	<span style="color: #1A4D5E">Timestamp</span><br>
+				  		<small>{{ block.timestamp }}</small>
+				  </li><br />
+
+				  <li>
+				  	<button class="button" >Transactions</button>
+                    </li><br />
+					  	{% if loop.index == 1 %}
+					  		<small>No Transactions</small>
+					  	{% else %}
+						  	{% for transaction in block.trans %}
+						  		<span>Transaction: {{loop.index}}</span>
+						  		<br />
+						  		<small>Sender: {{ transaction.sender }}</small>
+						  		<br />
+						  		<small>Reciever: {{ transaction.receiver }}</small>
+						  		<br />
+						  		<small>Amount: {{ transaction.amount }}</small>
+						  		<br />
+						  		<small>Time: {{ transaction.timestamp }}</small>
+						  		<br /><br />
+						  	{% endfor %}
+						{% endif %}
+				</ul>
+                <hr / >
+		{% endfor %}
+    </article>
+    <footer><a href='/index'>Back to homepage</a></footer>
+</div>{% endblock %}
+
+
+	
