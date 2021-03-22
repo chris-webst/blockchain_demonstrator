@@ -5,7 +5,7 @@ import pprint
 pp = pprint.PrettyPrinter(indent = 4)
 
 """
-in myBlockchain
+in blockchian_try.py
  def adding(self, block):
         if len(self.chain) > 0:
             block.pre_hash = self.chain[-1].hash
