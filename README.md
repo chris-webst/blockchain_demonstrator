@@ -2,10 +2,10 @@ Caroline's Blockchain Demonstrator
 
 This project was created by Karolina Podivinska as a part of her SOC work. It's purpose is to demonstrate how blockchain works (and could work implemented into electricity commerce). All the resources:
 
-[1]	STROUKAL, Dominik a Jan SKALICKÝ. Bitcoin a jiné kryptopeníze budoucnosti: historie, ekonomie a technologie kryptoměn, stručná příručka pro úplné začátečníky. 2., rozšířené vydání. Praha: Grada Publishing, 2018. Finance pro každého. ISBN 978-80-271-0742-1.   
+[1]	STROUKAL, Dominik a Jan SKALICKÝ. Bitcoin a jiné kryptopeníze budoucnosti: historie, ekonomie a technologie kryptoměn, stručná příručka pro úplné začátečníky. 2., rozšířené vydání. Praha: Grada Publishing, 2018. Finance pro každého. ISBN 978-80-271-0742-1.  
 [2]	DRESCHER, Daniel. Blockchain basics: A non-technical introduction in 25 steps [online]. Berkeley, California: Apress, [2017] [cit. 2019-10-29]. ISBN 978-1-4842-2603-2. 
 [3]	BASHIR, Imran. Mastering Blockchain: Distributed ledger technology, decentralization, and smart contracts explained [online]. 2. Birmingham: Packt Publishing, 2018 [cit. 2021-02-21]. ISBN 978-1788839044. Dostupné z: https://1lib.cz/book/4998840/bf08d0?regionChanged=&redirect=180740510 
-[4]	SZEWCZYKOVÁ, Julie. Vybrané aspekty bitcoinu a jeho implikace pohledem práva a ekonomie [online]. Praha, 2018 [cit. 2019-10-07]. Dostupné z: https://dspace.cuni.cz/handle/20.500.11956/104859. Diplomová práce. Univerzita Karlova, Právnická fakulta. Vedoucí práce Doc. Ing. Helena Chytilová, M.A., Ph.D. 
+[4]	SZEWCZYKOVÁ, Julie. Vybrané aspekty bitcoinu a jeho implikace pohledem práva a ekonomie [online]. Praha, 2018 [cit. 2019-10-07]. Dostupné z: https://dspace.cuni.cz/handle/20.500.11956/104859. Diplomová práce. Univerzita Karlova, Právnická fakulta. Vedoucí práce Doc. Ing. Helena Chytilová, M.A., Ph.D
 [5]	ROMANENKO, Pavel. 20 Blockchain Use Cases for 2018 You Should Know: Lessons learned from the Blockchain Circle’s workshop. In: IT Slovník [online]. 2018, 11. 12. [cit. 2021-02-20]. Dostupné z: https://hackernoon.com/20-blockchain-use-cases-for-2018-you-should-know-f7d2919c191d 
 [6]	CoinJoin. In: Open Bitcoin Privacy Project Wiki: notes on bitcoin privacy technology [online]. [cit. 2021-02-23]. Dostupné z: http://wiki.openbitcoinprivacyproject.org/topics:coinjoin 
 [7]	Co je to Integrita? In: IT Slovník [online]. 2008– [cit. 2021-02-20]. Dostupné z: https://it-slovnik.cz/pojem/integrita 
