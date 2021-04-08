@@ -4,36 +4,43 @@
 [4]	SZEWCZYKOVÁ, Julie. Vybrané aspekty bitcoinu a jeho implikace pohledem práva a ekonomie [online]. Praha, 2018 [cit. 2019-10-07]. Dostupné z: https://dspace.cuni.cz/handle/20.500.11956/104859. Diplomová práce. Univerzita Karlova, Právnická fakulta. Vedoucí práce Doc. Ing. Helena Chytilová, M.A., Ph.D. 
 [5]	ROMANENKO, Pavel. 20 Blockchain Use Cases for 2018 You Should Know: Lessons learned from the Blockchain Circle’s workshop. In: IT Slovník [online]. 2018, 11. 12. [cit. 2021-02-20]. Dostupné z: https://hackernoon.com/20-blockchain-use-cases-for-2018-you-should-know-f7d2919c191d 
 [6]	CoinJoin. In: Open Bitcoin Privacy Project Wiki: notes on bitcoin privacy technology [online]. [cit. 2021-02-23]. Dostupné z: http://wiki.openbitcoinprivacyproject.org/topics:coinjoin 
-[7]	Co je to Integrita? In: IT Slovník [online]. 2008– [cit. 2021-02-20]. Dostupné z: https://it-slovnik.cz/pojem/integrita 
-[8]	FENCL, Ivan. Blockchain a virtuální měny: I. část. In: Právo pro podnikatele: Advokátní kancelář [online]. 2019, 22. 7. [cit. 2021-02-20]. Dostupné z: https://pravopropodnikatele.cz/blockchain-a-virtualni-meny-i-cast/ 
-[9]	HAYS, Demelza. Consensus Mechanism. In: Crypto Research Report [online]. 2018, 17. 6. [cit. 2021-02-20]. Dostupné z: https://cryptoresearch.report/crypto-research/consensus-mechanisms/ 
-[10]	ANURAG. 8 Famous Blockchain Consensus Mechanisms and their Benefits. In: NewGenApps: Enabling Smarter Communication with AI [online]. 2018, 19. 4. [cit. 2021-02-20]. Dostupné z: https://www.newgenapps.com/blog/8-blockchain-consensus-mechanisms-and-benefits/ 
-[11]	ŠVÁBENSKÝ, Valdemar. Cvičení 02: Datové typy: přehled. In: HackMD: Collaborative Markdown Knowledge Base [online]. 2017 [cit. 2021-02-20]. Dostupné z: https://hackmd.io/@PndzKK3dQLe5kZGYz3Xjfg/r1FuUVOme?type=view#Datové-typy-přehled 
-[12]	WON, Daniel. Ethereum Proof of Stake Date: Date + What You Need to Know. In: Exodus Crypto Blog [online]. 2020, 24. 2. [cit. 2021-02-22]. Dostupné z: https://www.exodus.com/blog/ethereum-proof-of-stake-date/ 
-[13]	HASSMAN, Martin. JSON: jednotný format pro výměnu dat. In: Zdroják: o tvorbě webových stránek a aplikací [online]. 2008, 29. 9. [cit. 2021-02-20]. Dostupné z: https://zdrojak.cz/clanky/json-jednotny-format-pro-vymenu-dat/  
-[14]	Definition of IP address. In: PCMag: The Latest Technology Product Reviews, News, Tips, and Deals [online]. 1981– [cit. 2021-02-20]. Dostupné z: https://www.pcmag.com/encyclopedia/term/ip-address 
-[15]	HERBERT, Anthony. How To Process Incoming Request Data in Flask. In: DigitalOcean: The developer cloud [online]. 2020, 21. 9. [cit. 2021-02-20]. Dostupné z: https://www.digitalocean.com/community/tutorials/processing-incoming-request-data-in-flask 
-[16]	Favicon. In: Favicon Icons: Free Download, PNG and SVG [online]. [cit. 2021-02-20]. Dostupné z: https://icons8.com/icons/set/favicon 
-[17]	KUMAR, Bijay. Python Get An IP address. In: Python Tutorials: Learn Python Free [online]. 2020, 20. 10. [cit. 2021-02-20]. Dostupné z: https://pythonguides.com/python-get-an-ip-address/ 
-[18]	TECRACOIN. What is Genesis Block and why Genesis Block is needed? In: Tetra Coin: Science, not Fiction [online]. 2019, 18. 9. [cit. 2021-02-20]. Dostupné z: https://tecracoin.medium.com/what-is-genesis-block-and-why-genesis-block-is-needed-1b37d4b75e43 
-[19]	Genesis block. In: Bitcoin Wiki [online]. [cit. 2021-02-20]. Dostupné z: https://en.bitcoin.it/wiki/Genesis_block 
-[20]	How To A Create Virtual Environment for Python. In: Django Central [online]. [cit. 2021-02-20]. Dostupné z: https://djangocentral.com/how-to-a-create-virtual-environment-for-python/ 
-[21]	Bitcoin Glossary. In: Blockchain: Support Center [online]. 2013– [cit. 2021-02-20]. Dostupné z: https://support.blockchain.com/hc/en-us/articles/213276463-Bitcoin-Glossary 
-[22]	Blockchain. In: Wikipedia: the free encyclopedia [online]. San Francisco (CA): Wikimedia Foundation, 2001- [cit. 2021-02-20]. Dostupné z: https://en.wikipedia.org/wiki/Blockchain 
-[23]	Block 0. In: Blockchain: Explorer [online]. 2013– [cit. 2021-02-20]. Dostupné z: https://www.blockchain.com/btc/block/0 
-[24]	RSA. In: Wikipedia: the free encyclopedia [online]. San Francisco (CA): Wikimedia Foundation, 2001- [cit. 2021-02-20]. Dostupné z: https://cs.wikipedia.org/wiki/RSA 
-[25]	FRANKENFIELD, Jake. 51% Attack [online]. In: Investopedia: Sharper Insight, better investing [online]6. 5. 2019 [cit. 2019-12-22]. Dostupné z: https://www.investopedia.com/terms/1/51-attack.asp 
-[26]	CONWAY, Luke. Blockchain Explained. In: Investopedia: Sharper Insight, better investing [online]. 2020, 17. 12. [cit. 2021-03-24]. Dostupné z: https://www.investopedia.com/terms/b/blockchain.asp 
-[27]	MQ. Lekce 1: Úvod do frameworku Flask a webových aplikací v Pythonu [online]. In: ITnetwork [cit. 2021-02-14]. Dostupné z: https://www.itnetwork.cz/python/flask/uvod-do-frameworku-flask-a-webovych-aplikaci-v-pythonu 
-[28]	MQ. Lekce 2: Seznámení se s Flask microframeworkem [online]. In: ITnetwork [cit. 2021-02-14]. Dostupné z: https://www.itnetwork.cz/python/flask/seznameni-s-flask-microframeworkem 
-[29]	BITCOINOVEJ KANÁL. #5 - Co je Bitcoin? A jak funguje blockchain? In: YouTube [online]. 2019, 12. 3. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=KSKY1P9qLk4 
-[30]	FREECODECAMP.ORG. Learn Flask for Python: Full Tutorial. In: YouTube [online]. 2019, 28. 5. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=Z1RJmh_OqeA 
-[31]	SIMPLY EXPLAINED. How does a blockchain work: Simply Explained. In: YouTube [online]. 2017, 13. 11. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=SSo_EIwHSd4 
-[32]	SKALEX. Bitcoin Glossary: What is a Genesis Block? In: YouTube [online]. 2019, 27. 2. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=WAIOcPA0EBk 
-[33]	IMPORT MATH. Bitcoin: Confirming the Genesis Block. In: YouTube [online]. 2017, 25. 10. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=rKc6xKI5JWY 
-[34]	3BLUE1BROWN. But how does bitcoin actually work? In: YouTube [online]. 2017, 7. 7. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=bBC-nXj3Ng4 
-[35]	LENKA, Chinmoy. Python program to check the validity of a Password. In: GeeksforGeeks [online]. 2020, 29. 12. [cit. 2021-02-10]. Dostupné z: https://www.geeksforgeeks.org/python-program-check-validity-password/ 
-[36]	SATWIKKANSAL. Python_blockchain_app. In: GitHub [online]. 2020, 25. 2. [cit. 2021-02-10]. Dostupné z: https://github.com/satwikkansal/python_blockchain_app/tree/ibm_blockchain_post 
-[37]	DVF. Blockchain. In: GitHub [online]. 2018, 16. 2. [cit. 2021-02-10]. Dostupné z: https://github.com/dvf/blockchain/blob/master/blockchain.py 
-[38]	PALLETS. Flask. In: GitHub [online]. 2020, 3. 4. [cit. 2021-02-10]. Dostupné z: https://github.com/pallets/flask 
-[39]	GOLAMI, Somayyeh. Implementing-Smart-Blockchain. In: GitHub [online]. 2020, 16. 4. [cit. 2021-02-10]. Dostupné z: https://github.com/SomayyehGholami/Implementing-Smart-Blockchain 
+[7]	 FENCL, Ivan. Blockchain a virtuální měny: I. část. In: Právo pro podnikatele: Advokátní kancelář [online]. 2019, 22. 7. [cit. 2021-02-20]. Dostupné z: https://pravopropodnikatele.cz/blockchain-a-virtualni-meny-i-cast/ 
+[8]	HAYS, Demelza. Consensus Mechanism. In: Crypto Research Report [online]. 2018, 17. 6. [cit. 2021-02-20]. Dostupné z: https://cryptoresearch.report/crypto-research/consensus-mechanisms/ 
+[9]	ANURAG. 8 Famous Blockchain Consensus Mechanisms and their Benefits. In: NewGenApps: Enabling Smarter Communication with AI [online]. 2018, 19. 4. [cit. 2021-02-20]. Dostupné z: https://www.newgenapps.com/blog/8-blockchain-consensus-mechanisms-and-benefits/ 
+[10]	WON, Daniel. Ethereum Proof of Stake Date: Date + What You Need to Know. In: Exodus Crypto Blog [online]. 2020, 24. 2. [cit. 2021-02-22]. Dostupné z: https://www.exodus.com/blog/ethereum-proof-of-stake-date/ 
+[11]	Favicon. In: Favicon Icons: Free Download, PNG and SVG [online]. [cit. 2021-02-20]. Dostupné z: https://icons8.com/icons/set/favicon 
+[12]	KUMAR, Bijay. Python Get An IP address. In: Python Tutorials: Learn Python Free [online]. 2020, 20. 10. [cit. 2021-02-20]. Dostupné z: https://pythonguides.com/python-get-an-ip-address/ 
+[13]	TECRACOIN. What is Genesis Block and why Genesis Block is needed? In: Tetra Coin: Science, not Fiction [online]. 2019, 18. 9. [cit. 2021-02-20]. Dostupné z: https://tecracoin.medium.com/what-is-genesis-block-and-why-genesis-block-is-needed-1b37d4b75e43 
+[14]	Bitcoin Glossary. In: Blockchain: Support Center [online]. 2013– [cit. 2021-02-20]. Dostupné z: https://support.blockchain.com/hc/en-us/articles/213276463-Bitcoin-Glossary 
+[15]	Blockchain. In: Wikipedia: the free encyclopedia [online]. San Francisco (CA): Wikimedia Foundation, 2001- [cit. 2021-02-20]. Dostupné z: https://en.wikipedia.org/wiki/Blockchain 
+[16]	FRANKENFIELD, Jake. 51% Attack [online]. In: Investopedia: Sharper Insight, better investing [online]6. 5. 2019 [cit. 2019-12-22]. Dostupné z: https://www.investopedia.com/ter ms/1/51-attack.asp 
+[17]	CONWAY, Luke. Blockchain Explained. In: Investopedia: Sharper Insight, better investing [online]. 2020, 17. 12. [cit. 2021-03-24]. Dostupné z: https://www.investopedia.com/terms/b/blockchain.asp 
+[18]	BITCOINOVEJ KANÁL. #5 - Co je Bitcoin? A jak funguje blockchain? In: YouTube [online]. 2019, 12. 3. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=KSKY1P9qLk4 
+[19]	SIMPLY EXPLAINED. How does a blockchain work: Simply Explained. In: YouTube [online]. 2017, 13. 11. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=SSo_EIwHSd4 
+[20]	SKALEX. Bitcoin Glossary: What is a Genesis Block? In: YouTube [online]. 2019, 27. 2. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=WAIOcPA0EBk 
+[21]	3BLUE1BROWN. But how does bitcoin actually work? In: YouTube [online]. 2017, 7. 7. [cit. 2021-02-10]. Dostupné z: https://www.youtube.com/watch?v=bBC-nXj3Ng4 
+[22]	LENKA, Chinmoy. Python program to check the validity of a Password. In: GeeksforGeeks [online]. 2020, 29. 12. [cit. 2021-02-10]. Dostupné z: https://www.geeksforgeeks.org/python-program-check-validity-password/ 
+[23]	SATWIKKANSAL. Python_blockchain_app. In: GitHub [online]. 2020, 25. 2. [cit. 2021-02-10]. Dostupné z: https://github.com/satwikkansal/python_blockchain_app/tree/ibm_blockchain_post 
+[24]	DVF. Blockchain. In: GitHub [online]. 2018, 16. 2. [cit. 2021-02-10]. Dostupné z: https://github.com/dvf/blockchain/blob/master/blockchain.py 
+[25]	PALLETS. Flask. In: GitHub [online]. 2020, 3. 4. [cit. 2021-02-10]. Dostupné z: https://github.com/pallets/flask 
+[26]	GOLAMI, Somayyeh. Implementing-Smart-Blockchain. In: GitHub [online]. 2020, 16. 4. [cit. 2021-02-10]. Dostupné z: https://github.com/SomayyehGholami/Implementing-Smart-Blockchain
+[27]	DOUBEK, Michal. Má dnes ještě smysl změnit dodavatele elektřiny?: Pavel Morávek (ENEKA). In: YouTube [online]. 2020, 28. 9. [cit. 2021-04-02]. Dostupné z: https://www.youtube.com/watch?v=7q1hv0TZxac 
+[28]	Dodavatelé elektřiny: Abecední seznam společností. In: Elektřina.cz [online]. 2014– [cit. 2021-04-02]. Dostupné z: https://www.elektrina.cz/dodavatele-elektriny/ 
+[29]	ŠÁLAMOVÁ, Michaela. Dodavatelé elektřiny. In: Ušetřeno.cz [online]. 2020, 20. 1.  [cit. 2021-04-02]. Dostupné z: https://www.usetreno.cz/dodavatele-elektriny/ 
+[30]	SHIPWORTH, David. Peer-to-peer energy trading using blockchains. In: YouTube [online]. 2017, 27. 6. [cit. 2021-04-02]. Dostupné z: https://www.youtube.com/watch?v=AcufQeaOK1U&t=2541s 
+[31]	EW-DOS: The Energy Web Decentralized Operating System: An Open-Source Technology Stack to Accelerate the Energy Transition. PART 1: Vision & Purpose. In: Energy Web [online]. 2020 [cit. 2021-04-02]. Dostupné z: https://energyweb.org/wp-content/uploads/2019/12/EnergyWeb-EWDOS-PART1-VisionPurpose-202006-vFinal.pdf 
+[32]	What is Peer-to-Peer Energy Trading? In: Infinite Energy [online]. 2020, 1. 3. [cit. 2021-04-02]. Dostupné z: https://www.infiniteenergy.com.au/peer-to-peer-energy-trading/ 
+[33]	TUSHAR, Wayes, Tapan K. SAHA, Chau YUEN, David SMITH a H. Vincent POOR. Peer-to-Peer Trading in Electricity Networks: An Overview. In: Arxiv [online]. 2020, 19. 1. [cit. 2021-04-02]. Dostupné z: https://arxiv.org/pdf/2001.06882.pdf 
+[34]	Cryptocurrency Transaction Speeds in 2020. In: Tezro [online]. 2020, 3. 11. [cit. 2021-04-02]. Dostupné z: https://blog.tezro.com/cryptocurrency-transaction-speeds/ 
+[35]	Crypto vs Visa: transactions’ speed compared. In: PaySpace Magazine [online]. 2020, 20. 1. [cit. 2021-04-02]. Dostupné z: https://payspacemagazine.com/cryptocurrency/crypto-vs-visa-transactions-speed-compared/ 
+[36]	RIETH, Yulia. Payment Systems: Visa vs. Bitcoin. In: DeCenter [online]. 2018, 6. 6. [cit. 2021-04-02]. Dostupné z: https://decenter.org/en/payment-systems-visa-vs-bitcoin 
+[37]	IRVINE, Will. And The Extreme Tech Challenge 2018 winner is…: Extreme Tech Challenge (XTC) announces 2018 winner of its fourth annual competition. In: Slingshot sponsorship [online]. 2018, 25. 10. [cit. 2021-04-02]. Dostupné z: https://www.slingshotsponsorship.com/and-the-extreme-tech-challenge-2018-winner-is/ 
+[38]	We're Power Ledger. In: Power Ledger [online]. [cit. 2021-04-02]. Dostupné z: https://www.powerledger.io/company/about 
+[39]	A blockchain innovation with the goal of a green energy future. In: Suncontract [online]. [cit. 2021-04-02]. Dostupné z: https://suncontract.org/about-suncontract-blockchain-project/ 
+[40]	Šablona práce. In: SOČ: středoškolská odborná činnost [online]. 2020 [cit. 2021-04-02]. Dostupné z: https://www.soc.cz/sablona-soc/sablona-prace/ 
+[41]	Šablona SOČ. In: SOČ: středoškolská odborná činnost [online]. [cit. 2021-04-02]. Dostupné z: http://www.soc.cz/dokumenty/sablona_SOC.docx 
+[42]	HUBÍK, Jan. Bitcoin meetup: Jak funguje blockchain? In: YouTube [online]. 2018, 23. 7. [cit. 2021-04-02]. Dostupné z: https://www.youtube.com/watch?v=nvTodoUyiwU 
+[43]	NATHAN–149. CustomCrypocurrency: gymcoin. In: GitHub [online]. 2019, 6. 6. [cit. 2021-04-03]. Dostupné z: https://github.com/nathan-149/CustomCrypocurrency/tree/master/gymcoin 
+[44]	WACKEROW, Paul. Proof Of Stake: POS. In: Ethereum [online]. 2020, 23. 12. [cit. 2021-04-05]. Dostupné z: https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/ 
+[45]	What Is Proof Of Stake? In: Shrimpy [online]. 2020, 27. 1. [cit. 2021-04-05]. Dostupné z: https://blog.shrimpy.io/blog/what-is-proof-of-stake
+[46]	What is Python?: Executive summary. In: Python [online]. 2001– [cit. 2021-04-05]. Dostupné z: https://www.python.org/doc/essays/blurb/ 
