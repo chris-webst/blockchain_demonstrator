@@ -23,9 +23,12 @@
 				  </li><br />
 
 				  <li>
-				  	<button class="button" >Transactions</button>
-                    </li><br />
+				  	<button class="button">Transactions</button>
+
+					</li><br />
+
 					  	{% if loop.index == 1 %}
+						  
 					  		<small>No Transactions</small>
 					  	{% else %}
 						  	{% for transaction in block.trans %}
@@ -39,8 +42,10 @@
 						  		<br />
 						  		<small>Time: {{ transaction.timestamp }}</small>
 						  		<br /><br />
+						
 						  	{% endfor %}
 						{% endif %}
+			
 				</ul>
                 <hr / >
 		{% endfor %}
