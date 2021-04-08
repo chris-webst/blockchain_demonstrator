@@ -1,1 +1,0 @@
-web: gunicorn blockchian_try:app
