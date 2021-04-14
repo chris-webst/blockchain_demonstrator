@@ -187,6 +187,7 @@ class Blockchain:
         result = []
         for offer in self.trading_data:
             if type(offer) != int :
+                print(offer)
                 offer_json = {}
                 offer_json['retailer'] = offer.retailer
                 offer_json['sell_this'] = offer.sell_this
@@ -768,6 +769,7 @@ def sell():
             if check_money(float(electricity), retailer.electricity_balance) is True:
                 offer = Offer(retailer.username, electricity, money)
                 b.trading_data.append(offer)
+                print(b.trading_data)
                 b.trading_storage.append(float(electricity))
                 retailer.electricity_balance -= float(electricity)
                 db.session.commit()
@@ -862,4 +864,3 @@ def check_money(amount, person):
 if __name__ == "__main__":
     db.create_all()
     app.run(debug=True, port = 5004)
-
