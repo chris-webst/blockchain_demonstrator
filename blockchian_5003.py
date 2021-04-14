@@ -186,6 +186,7 @@ class Blockchain:
         result = []
         for offer in self.trading_data:
             if type(offer) != int :
+                print(offer)
                 offer_json = {}
                 offer_json['retailer'] = offer.retailer
                 offer_json['sell_this'] = offer.sell_this
@@ -194,7 +195,7 @@ class Blockchain:
             else:
                 result.append(0)
         return result
-    
+
     def storage_json_encode(self):
         result = []
         for storage in self.trading_storage:
@@ -206,7 +207,7 @@ class Blockchain:
     def storage_json_decode(self, storage):
         chain = []
         for json in storage:
-            stor = json['storage']
+            stor = json["storage"]
             chain.append(stor)
         return chain
             
@@ -403,7 +404,6 @@ db = SQLAlchemy(app)
 app.secret_key = pbkdf2_sha256.hash("my_secret_key")
 app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:///users.carolinesbdemonstrator.sqlite3"
 app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
-
 
 class users(db.Model):
     _id = db.Column("id", db.Integer, primary_key = True)
@@ -784,6 +784,7 @@ def sell():
             if check_money(float(electricity), retailer.electricity_balance) is True:
                 offer = Offer(retailer.username, electricity, money)
                 b.trading_data.append(offer)
+                print(b.trading_data)
                 b.trading_storage.append(float(electricity))
                 retailer.electricity_balance -= float(electricity)
                 db.session.commit()
