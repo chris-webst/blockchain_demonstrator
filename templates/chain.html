@@ -1,57 +1,188 @@
-{% extends 'index.html' %}
-{% block body %}<div class="envelope">
-    <header>The chain</header>
-    <article style="padding: 0.1% 35%">
-			{% for block in b.chain %}
-				  <b><span style="color: #033849">Block <small>{{loop.index-1}}</small></span></b>
-				<ul style="list-style-type:square">
-				  <li>
-				  	<span style="color: #1A4D5E">Hash</span>
-				  	<br>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.btn').click(function() {
+      $('.btn').each(function() {
+        $(this).next().hide();
+      });
+      $(this).next().toggle();
+    });
+  });
+</script>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Caroline's blockchain demonstrator</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/templates/styles.css">
+    <link rel="stylesheet" href="/templates/vendor.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="/templates/modernizr.js"></script>
+    <script defer src="/templates/all.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/templates/favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+  
+    <!-- header
+    ================================================== -->
+    <header class="s-header s-header--carolines">
+        <div class="row">
+
+            <div class="s-header__logo">
+                <a href="/templates/index.html">
+        
+                </a>
+            </div>
+
+            <nav class="s-header__nav">
+                <ul>
+                    <li><a href="/templates/index.html">Home</a></li>
+                    <li><a href="/templates/read_0.html">Reading</a></li>
+                    <li><a href="/view_profile">Profile</a></li>
+                    <li class="current"><a href="/carolines_blockchain">Blockchain</a></li>
+                    <li><a href="/new_transaction">New transaction</a></li>
+                    <li><a href="/pending_tx">Mine</a></li>
+                    <li><a href="/sell_electricity">Sell</a></li>
+                    <li><a href="/buy_electricity">Buy</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                </ul>
+            </nav>
+
+            <a class="s-header__menu-toggle" href="" title="Menu">
+                <span class="s-header__menu-icon"></span>
+            </a>
+       
+
+        </div> <!-- end row -->
+    </header> <!-- end s-header -->
+
+{% with messages = get_flashed_messages() %} {% if messages %} {% for msg in messages %}
+<b>{{msg}}</b>
+
+{% endfor %} {% endif %} {% endwith %}
+<section id="info" class="s-info target-section s-dark">  
+<h2 style="margin-top:0; margin-bottom:0; margin:0; padding-top:0; padding-bottom:0" align="center"><font color="#11abb0">Caroline's blockchain</font></h2>
+     <br><br><br>  
+    <div class="row block-large-1-3 block-medium-1-2 block-tab-full info-list">
+          
+        {% for block in b.chain %}
+			<div class="column info-item" data-aos="fade-up">
+                <b><large><font color="#11abb0">Block <small>{{loop.index-1}}</small></large></font></b>
+				<ul>
+				    <li>
+				  	    <span>Hash</span>
+				  	    <br>
 				  		<small>{{ block.hash }}</small>
-				  </li><br />
+				    </li><br />
 
 					<li>
-					<span style="color: #1A4D5E">Hash of previous block</span>
-				  	<br>
+					    <span>Hash of previous block</span>
+				  	    <br>
 				  		<small>{{ block.pre_hash }}</small>
-				  </li><br />
+				   </li><br />
 
-				  <li>
-				  	<span style="color: #1A4D5E">Timestamp</span><br>
+				    <li>
+				  	    <span>Timestamp</span><br>
 				  		<small>{{ block.timestamp }}</small>
-				  </li><br />
+				    </li><br />
 
-				  <li>
-				  	<button class="button">Transactions</button>
-
-					</li><br />
-
+				   <br>
+                
+                    <div>
+                        <button style="background-color:#11abb0" class="btn" >
+				   		    View Transactions
+				  	    </button><p style="display:none;">
 					  	{% if loop.index == 1 %}
-						  
-					  		<small>No Transactions</small>
+					  		No Transactions
 					  	{% else %}
 						  	{% for transaction in block.trans %}
-						  		<span>Transaction: {{loop.index}}</span>
+                    
+						  	    <font color="#11abb0">Transaction: {{loop.index}}</font>
 						  		<br />
-						  		<small>Sender: {{ transaction.sender }}</small>
+						  		Sender: {{ transaction.sender }}
 						  		<br />
-						  		<small>Reciever: {{ transaction.receiver }}</small>
+						  		Reciever: {{ transaction.receiver }}
 						  		<br />
-						  		<small>Amount: {{ transaction.amount }}</small>
+						  		Amount: {{ transaction.amount }}
 						  		<br />
-						  		<small>Time: {{ transaction.timestamp }}</small>
-						  		<br /><br />
+						  		Time: {{ transaction.timestamp }}
+						  	<br /><br />
 						
 						  	{% endfor %}
-						{% endif %}
-			
+						{% endif %}</p>
+                    </div>
 				</ul>
-                <hr / >
-		{% endfor %}
-    </article>
-    <footer><a href='/index'>Back to homepage</a></footer>
-</div>{% endblock %}
+            </div>
+        {% endfor %}
+    </div>
+</section>
+        
+ <!-- end s-info -->
+ 
+<!-- footer
+    ================================================== -->
+    <footer class="s-footer">
+        <div class="row">
+            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
+                <ul class="s-footer__social">
+                    <!-- <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li> -->
+                    <li><a href="https://www.instagram.com/carolinedeutschundwir/"><i class="fab fa-instagram" aria-hidden="true">
+                    </i> <span>Follow Caroline</span></a></li>
+                    <!-- <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
+                    <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li> -->
+                </ul>
+            </div>
+
+            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
+                <span>made by Karolina Podivinska 2021</span> 
+                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
+            </a>
+        </div> <!-- end ss-go-top -->
+    </footer>
 
 
-	
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="/templates/jquery-3.2.1.min.js"></script>
+    <script src="/templates/plugins.js"></script>
+    <script src="/templates/main.js"></script>
+
+</body>
+
+</html>

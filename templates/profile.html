@@ -52,14 +52,14 @@
             </div>
 
             <nav class="s-header__nav">
-                <ul >
+                <ul>
                     <li><a href="/templates/index.html">Home</a></li>
                     <li><a href="/templates/read_0.html">Reading</a></li>
-                    <li><a href="/view_profile">Profile</a></li>
+                    <li class="current"><a href="/view_profile">Profile</a></li>
                     <li><a href="/carolines_blockchain">Blockchain</a></li>
                     <li><a href="/new_transaction">New transaction</a></li>
                     <li><a href="/pending_tx">Mine</a></li>
-                    <li class="current"><a href="/sell_electricity">Sell</a></li>
+                    <li><a href="/sell_electricity">Sell</a></li>
                     <li><a href="/buy_electricity">Buy</a></li>
                     <li><a href="/logout">Logout</a></li>
                 </ul>
@@ -76,36 +76,70 @@
 
     <!-- carolines content
     ================================================== -->
-    
     <div class="carolines-content">
 
     <div class="row comment-respond"><!-- START respond -->
-        <div id="respond" class="column">
-            <h3>
-            <font color="#11abb0">Sell some of your electricity coins</font>
-            <img src="/templates/favicon-16x16.png" width="100px" height="100px" alt="" align="right">
-            </h3>   
-            <small>Input the number of electricity coins you want to sell and money coins you want to receive.<small>
-
-            <form name="contactForm" id="contactForm" method="post" action="" autocomplete="off">
-                <fieldset>
-                    <div class="form-field">
-                        <input type="number" step=any min=0,0000000001 name="how_much" placeholder="Sell electricity coins" required class="h-full-width h-remove-bottom">
-                    </div>
-                    <div class="form-field">
-                        <input type="number" min=0,0000000001 step=any name="how_much_receive" placeholder="Receive money coins" required class="h-full-width h-remove-bottom">
-                    </div>
-                    <input type="submit" name="offer" required method="POST" id="submit" class="btn btn--primary btn-wide btn--large h-full-width" value="Create an offer">
-                    Changed your mind?
-                    <a href="/view_profile"><input name="submit" id="submit2" class="btn btn--primary btn-wide btn--large h-full-width" value="Back to your profile" type="link"></a>
-
-
-                </fieldset>
-            </form> <!-- end form -->
-{% with messages = get_flashed_messages() %} {% if messages %} {% for msg in messages %}
-<b>{{msg}}</b>
+    {% with messages = get_flashed_messages() %} {% if messages %} {% for msg in messages %}
+<b>{{msg}}</br>
 
 {% endfor %} {% endif %} {% endwith %}
+        <div id="respond" class="column">
+            <h3 align="right">
+            <font color="#11abb0">Your profile</font>
+            <img src="/templates/favicon-16x16.png" width="100px" height="100px" alt="" align="left">
+            </h3>  
+            <p align="right"><small>Here is the sum of the data about you as a user of the demonstrator.</small></p>
+            <br>
+            <br>
+            <br>
+            <p style="text-align:left; padding-top:0;">
+            <font color="#11abb0">Username:</font>
+            <span style="float:right;">
+            <small><b>{{content[0]}}</b>
+            </span>
+            </small>
+            </p>
+            <hr style='margin-top:-1em'>
+            <p style="text-align:left; padding-top:0;">
+            <font color="#11abb0">Password</font>
+            <span style="float:right;">
+            <small><b>{{content[1]}}</b>
+            </span>
+            </small>
+            </p>
+            <hr style='margin-top:-1em'>
+            <font color="#11abb0">Money balance</font>
+            <span style="float:right;">
+            <small><b>{{content[2]}}</b>
+            </span>
+            </small>
+            </p>
+            <hr style='margin-top:-1em'>
+            <font color="#11abb0">Electricity balance</font>
+            <span style="float:right;">
+            <small><b>{{content[3]}}</b>
+            </span>
+            </small>
+            </p>
+            <hr style='margin-top:-1em'>
+            <font color="#11abb0"><p style="text-align:center; padding-top:0;">
+            Public key:</font><br>
+            <span style="float:center;">
+            
+            <small><b>{{content[4]}}</b></small>
+            </span>
+            </p><br>
+            <hr style='margin-top:-1em'>
+            <font color="#11abb0"><p style="text-align:center; padding-top:0;">
+            Your offers:</font><br>
+            <span style="float:center;">
+            
+            <small><b>{% for _ in content[5] %}
+            {{_}}<br /><br /></b></small>
+            {% endfor %}
+            <a href='/delete_offer'><small>Delete some offer</small></a>
+            
+
         </div><!-- END respond-->
 
      </div> <!-- end comment-respond -->
