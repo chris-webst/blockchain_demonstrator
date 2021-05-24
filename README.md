@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 <ol>
   <li>Download all the code from this repository.</li>
   <li>Make sure you have python3 installed (not a too old version).</li>
-  <li>Make sure everything from the requirements.txt file is installed.</li>
+  <li>Make sure everything from the requirements.txt file is installed (virtual environment recommended).</li>
   <li>For one-node use:
     <ol>
         <li>Choose one of the blockchain_5003.py or blockchain_5004.py files and change all the the port numbers in the file in your IDE to be the same (5003 if you have chosen the blockchain_5003.py file or 5004 if you have chosen the blockchain_5003.py file). Also, if you have chosen the blockchain_5004.py file, delete the line 29 (<code>from blockchain_5003 import users</code>), copy the user database from the blockchain_5003.py file (<code>class users</code>) and paste it to your blockchain_5004.py file after the <code>app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False</code> line.</li>
