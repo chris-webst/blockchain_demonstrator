@@ -27,4 +27,4 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 
 <h2>A quick user manual</h2>
 <p>The use of the app is very intuitive and the app itself includes a user manual, so don't worry and try it to yourself!</p>
-<img src="" alt="">
+<img src="https://github.com/Caroline2/blockchain_demonstrator/blob/main/Screenshot%202021-05-24%20at%2021.52.10.png" alt="homepage of the app" title="homepage of the app">
