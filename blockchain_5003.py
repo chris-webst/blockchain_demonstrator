@@ -5,7 +5,7 @@ author: Karolina Podivinska
 resources: specified externally
 
 24 May 2021 UPDATE:
-Seems like Caroline lost the file with the right offer behavior, so the offers
+Seems like Caroline lost touch the file with the right offer behavior, so the offers
 aren't being removed after someone takes advantage of them or delete them. 
 Caroline probably won't be able to fix this up to 12 June 2021; so please excuse this small mistake.
 """
