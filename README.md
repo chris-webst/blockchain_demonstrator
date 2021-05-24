@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
   <li>Make sure everything from the requirements.txt file is installed.</li>
   <li>For one-node use:
     <ol>
-      <li>Run one of the blockchain_5003.py or blockchain_5004.py files in your IDE and change the all the port numbers in the file to be the same (5003 if you have chosen he blockchain_5003.py file or 5004 if you have chosen the he blockchain_5003.py file).</li>
+      <li>Run one of the blockchain_5003.py or blockchain_5004.py files in your IDE and change all the the port numbers in the file to be the same (5003 if you have chosen the blockchain_5003.py file or 5004 if you have chosen the blockchain_5003.py file).</li>
     <li>Open one tab in your browser and type localhost:5003 or localhost:5004 depending on which file you have chosen.</li>
     </ol>
   </li>
@@ -26,5 +26,5 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 </ol>
 
 <h2>A quick user manual</h2>
-<p>The use of the app is very intuitive and the app itself includes a user manual, so don't worry and try it to yourself!</p>
+<p>Using some parts of the app is very intuitive and the app itself includes a user manual, so don't worry, download and try it to yourself!</p>
 <img src="https://github.com/Caroline2/blockchain_demonstrator/blob/main/Screenshot%202021-05-24%20at%2021.52.10.png" alt="homepage of the app" title="homepage of the app">
