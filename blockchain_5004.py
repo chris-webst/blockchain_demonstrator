@@ -3,11 +3,6 @@ DEMONSTRATOR:
 BLOCKCHAIN AS A MODERN TOOL WITHIN TRADING ELECTRICITY
 author: Karolina Podivinska
 resources: specified externally
-
-24 May 2021 UPDATE:
-Seems like Caroline lost touch with the file with the right offer behavior, so the offers
-aren't being removed after someone takes advantage of them or delete them. 
-Caroline probably won't be able to fix this up to 12 June 2021; so please excuse this small mistake.
 """
 import json
 import jsonpickle
@@ -652,19 +647,16 @@ def buy_electricity():
             chain = response.json()['chain']
             storage = response.json()['storage']
 
-            counter = 0
+            counter = 1
             for offer in chain:
-                if max_length != 0:
-                    if type(offer) != Offer:
+                print(offer)
+                if length != 0:
+                    if type(offer) == dict and counter > max_length:
                         max_length = length
                         new_offers = chain
                         new_storage = storage
                         break
-                    elif offer != b.trading_data[counter]:
-                        max_length = length
-                        new_offers = chain
-                        new_storage = storage
-                    elif len(chain) > max_length:
+                    elif type(offer) != dict and length == max_length:
                         max_length = length
                         new_offers = chain
                         new_storage = storage
@@ -672,10 +664,9 @@ def buy_electricity():
                     else:
                         counter += 1
                 else:
-                    max_length = length
-                    new_offers = chain
-                    new_storage = storage
-                    break
+                    max_length = max_length
+                    new_offers = None
+                    new_storage = None
 
         if new_offers:
             b.trading_data = b.offer_json_decode(new_offers)
@@ -716,6 +707,7 @@ def purchase():
                 flash("There is no offer with number " + str(num))
                 return redirect("/purchase")
             else:
+                print(b.trading_data[num])
                 retailer = users.query.filter_by(username = str(b.trading_data[num].retailer)).first()
                 you = users.query.filter_by(username = str(session["user"])).first()
                 el = b.trading_data[num].sell_this
