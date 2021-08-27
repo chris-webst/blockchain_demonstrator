@@ -31,4 +31,6 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 <noindent><blockquote>
                         <b>24 May 2021 update:</b> Seems like Caroline lost touch with the file with the right offer behavior, so the offers
                         aren't being removed after someone takes advantage of them or delete them. Caroline probably won't be able to fix this up to
-                        12 June 2021; so please excuse this small mistake.</blockquote>
+                        12 June 2021; so please excuse this small mistake.</blockquote><br>
+  <noindent><blockquote>
+                        <b>27 August 2021 update:</b> Some of the offer issues have been solved. Some features still aren't 100% functional.</blockquote>
