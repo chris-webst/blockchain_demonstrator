@@ -2,7 +2,7 @@
 
 <p>This project was created by Karolina Podivinska as a part of her SOC work (soc.pdf). It's purpose is to demonstrate how blockchain works (or could work) implemented into electricity commerce.</p>
 
-<p>Here is a video that introduces the whole project including the app (in Czech with English subtitles:
+<p>Here is a video that introduces the whole project including the app (in Czech with English subtitles):
 https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 
 <h2>A quick installation guide</h2>
