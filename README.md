@@ -29,8 +29,8 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 <p>Using some parts of the app is very intuitive and the app itself includes a user manual, so don't worry, download and try it to yourself!</p>
 <img src="https://github.com/Caroline2/blockchain_demonstrator/blob/main/Screenshot%202021-05-24%20at%2021.52.10.png" alt="homepage of the app" title="homepage of the app">
 <noindent><blockquote>
-                        <b>24 May 2021 update:</b> Seems like Caroline lost touch with the file with the right offer behavior, so the offers
-                        aren't being removed after someone takes advantage of them or delete them. Caroline probably won't be able to fix this up to
+                        <b>24 May 2021 update:</b> Seems like the author lost touch with the file with the right offer behavior, so the offers
+                        aren't being removed after someone takes advantage of them or delete them. This probably won't be fixable up to
                         12 June 2021; so please excuse this small mistake.</blockquote><br>
   <noindent><blockquote>
                         <b>27 August 2021 update:</b> Some of the offer issues have been solved. Some features still aren't 100% functional.</blockquote>
