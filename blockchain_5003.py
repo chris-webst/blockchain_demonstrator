@@ -1,7 +1,7 @@
 """
 DEMONSTRATOR:
 BLOCKCHAIN AS A MODERN TOOL WITHIN TRADING ELECTRICITY
-author: Chris Podivinsky (Karolina Podivinska)
+author: Chris Podivinsky
 resources: specified externally
 """
 import json
