@@ -27,7 +27,6 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 
 <h2>A quick user manual</h2>
 <p>Using some parts of the app is very intuitive and the app itself includes a user manual, so don't worry, download and try it to yourself!</p>
-<img src="https://github.com/Caroline2/blockchain_demonstrator/blob/main/Screenshot%202021-05-24%20at%2021.52.10.png" alt="homepage of the app" title="homepage of the app">
 <noindent><blockquote>
                         <b>24 May 2021 update:</b> Seems like the author lost touch with the file with the right offer behavior, so the offers
                         aren't being removed after someone takes advantage of them or delete them. This probably won't be fixable up to
