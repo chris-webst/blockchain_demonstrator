@@ -28,8 +28,8 @@ https://www.youtube.com/watch?v=mIEM4X9-wqY</p>
 <h2>A quick user manual</h2>
 <p>Using some parts of the app is very intuitive and the app itself includes a user manual, so don't worry, download and try it to yourself!</p>
 <noindent><blockquote>
-                        <b>24 May 2021 update:</b> Seems like the author lost touch with the file with the right offer behavior, so the offers
+                        <b>24 May 2021 update:</b>Unfortunately, the offers
                         aren't being removed after someone takes advantage of them or delete them. This probably won't be fixable up to
                         12 June 2021; so please excuse this small mistake.</blockquote><br>
   <noindent><blockquote>
-                        <b>27 August 2021 update:</b> Some of the offer issues have been solved. Some features still aren't 100% functional.</blockquote>
+                        <b>27 August 2021 update:</b> Some of the offer issues have been solved. However, ome features still aren't 100% functional.</blockquote>
